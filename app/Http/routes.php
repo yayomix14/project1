@@ -163,6 +163,9 @@ Route::group(['middleware' => ['web', 'authGroup']], function () {
 	//-----------Rutas Select Municipio Parroquias---------------------------
 	Route::get('parroquias/{id}','GeneralController@getParroquias');
 
+	//-----------Rutas Select Municipio Parroquias---------------------------
+	Route::get('/reporte','ReporteController@reporte');
+
 
 
 });

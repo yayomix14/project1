@@ -35,8 +35,8 @@
 <body>
 <fieldset id="el##">
 <legend><b>INCUDEF</b></legend>
-  <img src="../public/img/Picture2.png" alt="" style="width: 200px; ">
-  <img src="../public/img/Picture1.png" alt="" style="width: 200px; margin-left: 600px;">
+  <img src="../public/img/gobierno.jpg" alt="" style="width: 200px; ">
+  <img src="../public/img/ejemplo.png" alt="" style="width: 200px; margin-left: 600px;">
   <div style="position: absolute; margin-left: -600px;">
     <div><b style="font:120%;margin-left:-100px">Sistema Estadal de Registro de Diversidad Cultural</b></div>
      <div><b style="font:100%;margin-left:-30px">Infraestructura y Activaciòn Cultural del Estado Falcón</b></div>    

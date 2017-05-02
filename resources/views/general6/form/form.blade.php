@@ -2,14 +2,14 @@
 <div id="" class="input-group">
   <span class="input-group-addon">Fecha de Registro</span>
       {!! Form::date('fecha', null, ['class' => 'form-control','required'=>'required']) !!}
-  <span class="input-group-addon">Còdigo de Registro</span>
+  <span class="input-group-addon">Código de Registro</span>
       {!! Form::number('codigo', null, ['class' => 'form-control']) !!}
   
 </div>
 <div class="input-group">
   <span class="input-group-addon">Disciplina</span>
       {{Form::select('diciplina', ['Artes Escénicas' => 'Artes Escénicas', 'Artesan@' => 'Artesan@','Artes Visuales'=>'Artes Visuales','Expresiones Literarias'=>'Expresiones Literarias','Animación y Recreación'=>'Animación y Recreación','Otras'=>'Otras'], null, ['placeholder' => 'Seleccione...','class'=>'form-control'])}} 
-  <span class="input-group-addon">Tipo de Arte Escènica</span>
+  <span class="input-group-addon">Tipo de Arte Escénica</span>
       {{Form::select('tipo', ['Tejerdor@' => 'Tejerdor@', 'Locer@' => 'Locer@','Ceramista'=>'Ceramista', 'Tallista' => 'Tallista', 'Alfarer@' => 'Alfarer@', 'Lutier' => 'Lutier', 'Muñequer@' => 'Muñequer@', 'Alpargater@' => 'Alpargater@', 'Otros' => 'Otros'], null, ['placeholder' => 'Seleccione...','class'=>'form-control'])}} 
   <span class="input-group-addon">Categoria</span>
       {{Form::select('categoria', ['Tradicional' => 'Tradicional', 'Contemporáneo' => 'Contemporáneo','Clasica'=>'Clasica','Moderna'=>'Moderna','Emergente'=>'Emergente'], null, ['placeholder' => 'Seleccione...','class'=>'form-control'])}}                      
@@ -29,7 +29,7 @@
       {!! Form::number('edad', null, ['class' => 'form-control']) !!}
 </div>
 <div class="input-group">
-    <span class="input-group-addon">Direcciòn</span>
+    <span class="input-group-addon">Dirección</span>
       {!! Form::text('direccion', null, ['class' => 'form-control']) !!}
 </div>
 <div class="input-group">

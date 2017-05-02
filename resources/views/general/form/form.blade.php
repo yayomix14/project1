@@ -29,7 +29,7 @@
       {!! Form::number('edad', null, ['class' => 'form-control']) !!}
 </div>
 <div class="input-group">
-    <span class="input-group-addon">Direcciòn</span>
+    <span class="input-group-addon">Dirección</span>
       {!! Form::text('direccion', null, ['class' => 'form-control']) !!}
 </div>
 <div class="input-group">
@@ -45,7 +45,7 @@
             {!! Form::email('email', null, ['class' => 'form-control']) !!}
 </div>                
 <div class="input-group">
-     <span class="input-group-addon">Condicion Actual</span>
+     <span class="input-group-addon">Condición Actual</span>
             {!! Form::text('condicion', null, ['class' => 'form-control']) !!}
      <span class="input-group-addon">Participante de Asociación</span>
      <span class="input-group-addon">Si</span>  
@@ -56,7 +56,7 @@
 <div class="input-group">
    <span class="input-group-addon">Tiempo de trayectoria</span>
           {!! Form::date('trayectoria', null, ['class' => 'form-control']) !!}
-   <span class="input-group-addon">Nombre de la Asociacion</span>
+   <span class="input-group-addon">Nombre de la Asociación</span>
           {!! Form::text('asociacion', null, ['class' => 'form-control']) !!}
 </div>
 <div class="input-group">

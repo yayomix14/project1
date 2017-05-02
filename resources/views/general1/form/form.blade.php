@@ -2,7 +2,7 @@
 <div id="" class="input-group">
   <span class="input-group-addon">Fecha de Registro</span>
       {!! Form::date('fecha', null, ['class' => 'form-control','required'=>'required']) !!}
-  <span class="input-group-addon">Còdigo de Registro</span>
+  <span class="input-group-addon">Código de Registro</span>
       {!! Form::number('codigo', null, ['class' => 'form-control']) !!}  
 </div>
 <div class="input-group">
@@ -25,7 +25,7 @@
       {!! Form::number('edad', null, ['class' => 'form-control']) !!}
 </div>
 <div class="input-group">
-    <span class="input-group-addon">Direcciòn</span>
+    <span class="input-group-addon">Dirección</span>
       {!! Form::text('direccion', null, ['class' => 'form-control']) !!}
 </div>
 <div class="input-group">
@@ -41,7 +41,7 @@
             {!! Form::email('email', null, ['class' => 'form-control']) !!}
     </div>
 <div class="input-group">
-<span class="input-group-addon">Direcciòn de Oficina</span>
+<span class="input-group-addon">Dirección de Oficina</span>
             {!! Form::text('oficina', null, ['class' => 'form-control']) !!}
     </div>
 <div class="input-group">

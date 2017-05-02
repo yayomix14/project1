@@ -42,7 +42,7 @@
   <div class="container">
   <div class="text-left">
   {{ Html::image('img/gobierno.jpg', 'a picture', array('class' => 'thumb','heigth'=>"100", "width"=>'160')) }}
-  {{ Html::image('img/admirable.jpg', 'a picture', array('style'=>'float: right;')) }}
+  {{ Html::image('img/ejemplo.png', 'a picture', array('class' => 'pull-right','thumb','heigth'=>"100", "width"=>'160')) }}
 
   
 </div>
@@ -115,7 +115,7 @@
                 
                 <li class=""><b>Menú General</b></li>
                   <li><a href="{{URL::to('/general1')}}"><i class='fa fa-bars'></i> Coordinadores Municipales </a></li>
-                  <li><a href="{{URL::to('/general2')}}"><i class='fa fa-bars'></i> Infraestructura de Activaciòn Cultural  </a></li>
+                  <li><a href="{{URL::to('/general2')}}"><i class='fa fa-bars'></i> Infraestructura de Activación Cultural  </a></li>
                   <li><a href="{{URL::to('/general3')}}"><i class='fa fa-bars'></i> Museos de Estado </a></li>
                   <li><a href="{{URL::to('/general4')}}"><i class='fa fa-bars'></i> Asociaciones y Fundaciones  </a></li>
                   <li><a href="{{URL::to('/general5')}}"><i class='fa fa-bars'></i> Artes Escènicas  </a></li>
@@ -123,11 +123,15 @@
                   <li><a href="{{URL::to('/general7')}}"><i class='fa fa-bars'></i> Artes Visuales  </a></li>
                   <li><a href="{{URL::to('/general8')}}"><i class='fa fa-bars'></i> Expreciones Literarias  </a></li>
                   <li><a href="{{URL::to('/general9')}}"><i class='fa fa-bars'></i> Imprenta y Editorales  </a></li>
-                  <li><a href="{{URL::to('/general')}}"><i class='fa fa-bars'></i> Animacion y Recreaciòn  </a></li>
+                  <li><a href="{{URL::to('/general')}}"><i class='fa fa-bars'></i> Animación y Recreación  </a></li>
                   <li><a href="{{URL::to('/general11')}}"><i class='fa fa-bars'></i> Saberes Tradicionales  </a></li>
                    <li><a href="{{URL::to('/general12')}}"><i class='fa fa-bars'></i> Centros Audiovisuales, Televisoras y Radios  </a></li>
 
                 
+              </ul>
+              <ul class="nav nav-list">
+                <li><b>Reportes</b></li>
+                <li><a href="{{URL::to('/reporte')}}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Consulta de Reportes</a></li>
               </ul>
             </div><!--/.well -->
   </div>

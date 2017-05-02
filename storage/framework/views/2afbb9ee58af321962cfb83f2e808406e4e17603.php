@@ -7,7 +7,6 @@
   <span class="input-group-addon">Còdigo de Registro</span>
       <?php echo Form::number('codigo', null, ['class' => 'form-control']); ?>
 
-  
 </div>
 <div class="input-group">
   <span class="input-group-addon">Desempeño</span>
@@ -75,9 +74,7 @@
 </div>
 <div class="input-group">
   <span class="input-group-addon">Especificación de la actividad que realiza:</span>
-          <?php echo Form::text('actividad', null, ['class' => 'form-control']); ?>
-
-    
+          <?php echo Form::text('actividad', null, ['class' => 'form-control']); ?>  
 </div>
   <br>
 <script type="text/javascript">

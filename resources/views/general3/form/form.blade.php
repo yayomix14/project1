@@ -2,7 +2,7 @@
 <div id="" class="input-group">
   <span class="input-group-addon">Fecha de Registros</span>
       {!! Form::date('fecha', null, ['class' => 'form-control','required'=>'required']) !!}
-  <span class="input-group-addon">Còdigo de Registro</span>
+  <span class="input-group-addon">Código de Registro</span>
       {!! Form::number('codigo', null, ['class' => 'form-control']) !!}
   
 </div>
@@ -15,11 +15,11 @@
 
 </div>
 <div class="input-group">
-     <span class="input-group-addon">Direcciòn</span>
+     <span class="input-group-addon">Dirección</span>
       {!! Form::text('direccion', null, ['class' => 'form-control']) !!}
 </div>
 <div class="input-group">
-     <span class="input-group-addon">Descripciòn del Espacio</span>
+     <span class="input-group-addon">Descripción del Espacio</span>
       {!! Form::text('descripcion', null, ['class' => 'form-control']) !!}
  </div>
 <div class="input-group">
@@ -31,7 +31,7 @@
 <div class="input-group">
     <span class="input-group-addon">Tiempo de Creada</span>
       {!! Form::date('fecha_n', null, ['class' => 'form-control']) !!}
-    <span class="input-group-addon">Tipo de Colecciòǹ</span>
+    <span class="input-group-addon">Tipo de Coleccióǹ</span>
       {{Form::select('tipo', ['Ceramica' => 'Ceramica', 'Papel' => 'Papel','Tela'=>'Tela','Vidrio'=>'Vidrio','Madera'=>'Madera','Metal'=>'Metal','Mixta'=>'Mixta'], null, ['placeholder' => 'Seleccione...','class'=>'form-control'])}}
 </div>
 <div class="input-group">
@@ -68,9 +68,9 @@
     <span class="input-group-addon">Luz</span>  
             {!! Form::checkbox('servicio[]', 'luz') !!}
     <span class="input-group-addon">Agua Servida</span>  
-            {!! Form::checkbox('servicio[]', 'agua_s') !!}
+            {!! Form::checkbox('servicio[]', 'agua_servida') !!}
     <span class="input-group-addon">Aseo Urbano</span>  
-            {!! Form::checkbox('servicio[]', 'aseo') !!}
+            {!! Form::checkbox('servicio[]', 'aseo_urbano') !!}
 
 </div>
 
